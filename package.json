@@ -48,6 +48,10 @@
       "to": "assets/lib/mermaid/mermaid.min.js"
     },
     {
+      "from": "node_modules/alpinejs/dist/cdn.min.js",
+      "to": "assets/lib/alpinejs/cdn.min.js"
+    },
+    {
       "from": "node_modules/chart.js/dist/chart.umd.js",
       "to": "assets/lib/chart/chart.umd.js"
     },
