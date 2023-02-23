@@ -53,7 +53,7 @@ var logger = fs.createWriteStream('../../assets/css/schemes/ouspg.css', {
 })
 
 logger.write(":root {\n");
-logger.write("  --color-neutral: 255, 255, 255;\n");
+logger.write("   --color-neutral: 255, 255, 255;\n");
 
    for (const [key, value] of Object.entries(neutral_cols)) {
   logger.write(`   ${neutral}${key}: ${toRgb(value)};\n`);
