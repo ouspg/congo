@@ -15,7 +15,7 @@
         <img
           alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
           {{ if eq .MediaType.SubType "svg" }}
-            class="w-24 max-w-[6rem] max-h-[4.5rem] rounded-md sm:max-h-[7.5rem] sm:w-40
+            class="w-24 max-w-[6rem] max-h-[3.5rem] rounded-md sm:max-h-[4.0rem] sm:w-40
             sm:max-w-[10rem]" src="{{ .RelPermalink }}"
           {{ else }}
             class="w-24 rounded-md sm:w-40" srcset="
